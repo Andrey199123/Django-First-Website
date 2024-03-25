@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+{% load static %}
+<head>
+  <title>My website</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'homepage/style.css' %}">
+  <link rel="mask-icon" href="{% static 'homepage/other/favicon.ico' %}" color="#000000">
+  <meta charset="UTF-8">
+  <meta name="description" content="Andrey's first HTML page">
+  <meta name="keywords" content="HTML, CSS, website">
+  <meta name="author" content="Andrey Vasilyev">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header>
+  <h1>Andrey's Website</h1>
+</header>
+<body style="background-color:rgb(246, 224, 201);">
+<nav>
+  <ul>
+    <li><a href="#Testing">Jump to Testing</a></li>
+    <li><a href="#Testing2">Jump to Testing2</a></li>
+    <li><a href="#CursorGame">Jump to CursorGame</a></li>
+    <li><a href="#Court-Cases">Jump to Court-Cases</a></li>
+    <li><audio controls><source src="{% static 'homepage/other/Holo-Rouge.mp3' %}" type="audio/mpeg"></audio></li>
+    <li><a href="/admin">Go to Admin</a></li>
+    <li><a href="/polls">Go to the Polls</a></li>
+  </ul>
+</nav>
+<section>
+  <div class="parallax-1">
+    <article>
+      <iframe src="https://replit.com/@CLS63AMG/FontsGame?lite=true"></iframe>
+    </article>
+  </div>
+  <div class="parallax-2">
+    <article>
+      <iframe id="Testing" src="https://replit.com/@CLS63AMG/Testing?lite=true"></iframe>
+    </article>
+  </div>
+  <div class="parallax-3">
+    <article>
+      <iframe id="Testing2" src="https://replit.com/@CLS63AMG/Testing2?lite=true"></iframe>
+    </article>
+  </div>
+  <div class="parallax-4">
+    <article>
+      <iframe id="CursorGame" src="https://replit.com/@CLS63AMG/CursorGame?lite=true"></iframe>
+      <a href="/secret"
+            accesskey = "p">
+      </a>
+    </article>
+  </div>
+  <div class="parallax-5">
+    <article>
+      <iframe id="Court-Cases" src="https://replit.com/@CLS63AMG/Court-Cases?lite=true"></iframe>
+    </article>
+  </div>
+</section>
+<footer>
+  <p>Copyright Andrey Vasilyev<sub>&#169;</sub></p>
+</footer>
+</body>
+</html>

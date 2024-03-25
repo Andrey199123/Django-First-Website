@@ -1,0 +1,115 @@
+a:link {
+    color: rgb(45, 110, 152);
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: rgb(25, 25, 112);
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:hover {
+    color: rgb(25, 25, 112);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+.tb { width:300px; }
+.tb td { padding: 5px; border: solid 1px #fff; border-radius: 10px; color: white; }
+.tb th { padding: 5px; border: solid 1px #fff; border-radius: 10px; background-color: lightblue; }
+.tb2 { border-collapse: collapse; width:300px; }
+.tb2 td { padding: 5px; border: solid 1px #fff; color: white; }
+.tb2 th { padding: 5px; border: solid 1px #fff
+; background-color: lightblue; }
+dt, dd { color: white; }
+header {
+  background-color: rgb(226, 204, 181);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(25, 25, 112);
+  }
+nav {
+  float: left;
+  width: 11%;
+  min-height: 600vh;
+  background: rgb(226, 204, 181);
+  padding: 20px;
+  }
+article {
+  float: left;
+  padding: 20px;
+  width: 78%;
+  background-color: transparent;
+  }
+footer {
+  background-color: rgb(211, 211, 211);
+  padding: 10px;
+  text-align: center;
+  color: black;
+  }
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+iframe {
+  min-height: 100vh;
+  border: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 105%;
+  }
+ #Testing {
+ }
+ #Testing2 {
+ }
+ #CursorGame{
+ }
+ #Court-Cases{
+ }
+  .parallax-1 {
+  background-image: url("other/mountains.jpeg");
+  min-height: 120vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .parallax-2 {
+  background-image: url("other/mountains.jpeg");
+  min-height: 120vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .parallax-3 {
+  background-image: url("other/mountains.jpeg");
+  min-height: 120vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .parallax-4 {
+  background-image: url("other/mountains.jpeg");
+  min-height: 120vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .parallax-5 {
+  background-image: url("other/mountains.jpeg");
+  min-height: 120vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+

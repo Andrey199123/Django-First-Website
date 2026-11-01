@@ -1,42 +1,23 @@
 # My First Django Website
 
-This is the first website I ever created using Django, back when I was in 6th grade. It includes basic functionality such as routing, models, admin customization, and simple views.
+This was the first website I built with Django, back in sixth grade. It is a small learning project with a homepage, a polls app, custom models, templates, and basic admin customization.
 
-This Django app includes:
-- Basic URL routing
-- Custom models defined in `models.py`
-- Admin site customization in `admin.py`
-- Views for rendering templates and handling HTTP requests
-- Core configuration in `settings.py` and `urls.py`
+The project is kept here as an early record of how I learned routing, views, models, templates, and SQLite. It is not a production application, and its old Django configuration may need updates before it runs on a modern Python environment.
 
-## Technologies Used
-- Python
-- Django Framework
-- HTML/CSS 
-- SQLite 
+## Project structure
 
-## Running the Project
+The Django project lives in [`django-polls/`](django-polls/). The `homepage` and `polls` apps contain the application code, while the templates and static assets hold the site's pages, styles, images, and audio.
 
-To run this project locally:
+## Running it
 
-1. Clone the repository.
 ```bash
 git clone https://github.com/Andrey199123/Django-First-Website.git
 cd Django-First-Website/django-polls
-```
-2. Set up a virtual environment:
-```bash
-python -m venv env
-source env/bin/activate
-```
-4. Install Django
-```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install django
-```
-6. Start the development server:
-```bash
+python manage.py migrate
 python manage.py runserver
 ```
-8. Open your browser and go to `http://127.0.0.1:8000`.
 
-This is an early learning archive, not a production-ready Django deployment. Dependency versions are not pinned; compatibility with the latest Django is not guaranteed. Review settings, use a fresh development database, and replace any development secret before adapting it for a real service. Do not deploy the checked-in development configuration as-is.
+Then open http://127.0.0.1:8000. The repository no longer includes a generated SQLite database or compiled Python files; Django creates a fresh local database through the migration step.

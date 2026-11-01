@@ -20,6 +20,10 @@ This Django app includes:
 To run this project locally:
 
 1. Clone the repository.
+```bash
+git clone https://github.com/Andrey199123/Django-First-Website.git
+cd Django-First-Website/django-polls
+```
 2. Set up a virtual environment:
 ```bash
 python -m venv env
@@ -34,3 +38,5 @@ pip install django
 python manage.py runserver
 ```
 8. Open your browser and go to `http://127.0.0.1:8000`.
+
+This is an early learning archive, not a production-ready Django deployment. Dependency versions are not pinned; compatibility with the latest Django is not guaranteed. Review settings, use a fresh development database, and replace any development secret before adapting it for a real service. Do not deploy the checked-in development configuration as-is.
